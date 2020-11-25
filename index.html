@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica Restaurante</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,700">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="contenedor">
+            <nav class="menu">
+                <a href="#" id="btn-acerca-de">Acerca de</a>
+                <a href="#" id="btn-menu">Menu</a>
+                <a href="#" id="btn-galeria">Galeria</a>
+                <a href="#" id="btn-ubicacion">Ubicacion</a>
+            </nav>
+
+            <div class="textos">
+                <h1 class="nombre"> Café Bar <span>BBT OTRA</span></h1>
+                <h3>Y otra, y otra, y otra...</h3>
+            </div>
+        </div>
+    </header>
+
+    <!-- Contenido Principal -->
+    <section class="main">
+        <!-- Acerca de -->
+        <section class="acerca-de" id="acerca-de">
+            <div class="contenedor">
+                <div class="foto">
+                    <img src="image/about.png" alt="Imagen Acerca De">
+                </div>
+                <article>
+                    <h3>BBT otra <span class="typed"></span></h3>
+                    <p>Situado en el corazón de Hervás, el BBT OTRA es el sitio idóneo para sentarte a tomarte esa 
+                        cerveza fría que tanto mereces en un caluroso día de verano, o simplemente para disfutar
+                        con tus amigos.</p>
+                    <p> ¡Ven y siéntete como en casa! </p>    
+                </article>
+            </div>
+        </section>
+
+        <!-- Menu -->
+        <section class="menu" id="menu">
+            <div class="contenedor">
+                <h3 class="titulo" id="platillos">CARTA</h3>
+                <div class="contenedor-menu">
+                    <div class="contenedor-menu2">
+                        <article>
+                            <p class="categoria"> DESAYUNOS </p>
+                            <p class="sub-categoria"> CAFÉS E INFUSIONES </p>
+                            <div class="platillo">
+                                <p class="nombre"> <img src="image/gluten.svg" alt="" width="18px" height="18px"> Café Normal</p>
+                                <p class="precio">1.20€</p>
+                                <br><br>
+                                <p class="nombre"><img src="image/gluten.svg" alt="" width="18px" height="18px"> Café en Caña</p>
+                                <p class="precio">1.30€</p>
+                                <br><br>
+                                <p class="nombre"><img src="image/gluten.svg" alt="" width="18px" height="18px"> Café Desayuno</p>
+                                <p class="precio">1.50€</p>
+                                <br><br>
+                                <p class="nombre"><img src="image/gluten.svg" alt="" width="18px" height="18px"> Infusiones</p>
+                                <p class="precio">1.20€</p>
+                                <br><br>
+                                <p class="nombre">Cola Cao</p>
+                                <p class="precio">1.50€</p>
+                                <br><br>
+                                <p class="nombre">Nesquik</p>
+                                <p class="precio">1.50€</p>
+                            </div>
+                            <p class="sub-categoria">ZUMOS Y BATIDOS</p>
+                            <div class="platillo">
+                                <p class="nombre"><img src="image/gluten.svg" alt="" width="18px" height="18px"> Zumo Natural de Naranja</p>
+                                <p class="precio">2.00€</p>
+                                <br><br>
+                                <p class="nombre"><img src="image/gluten.svg" alt="" width="18px" height="18px"> Batido de Chocolate</p>
+                                <p class="precio">2.00€</p>
+                                <br><br>
+                                <p class="nombre"><img src="image/gluten.svg" alt="" width="18px" height="18px"> Zumos</p>
+                                <p class="precio">2.00€</p>
+                            </div>
+                            <p class="sub-categoria">TOSTADAS</p>
+                            <div class="platillo">
+                                <p class="nombre"> Aceite y Tomate</p>
+                                <p class="precio">1.10€  //  <img src="image/gluten.svg" alt="" width="18px" height="18px"> 1.50€</p>
+                                <br><br>
+                                <p class="nombre"> Aceite, Tomate y Jamón</p>
+                                <p class="precio">2.00€  //  <img src="image/gluten.svg" alt="" width="18px" height="18px"> 2.50€</p>
+                                <br><br>
+                                <p class="nombre"> Mermelada y Mantequilla</p>
+                                <p class="precio">1.10€  //  <img src="image/gluten.svg" alt="" width="18px" height="18px"> 1.50€</p>
+                                <br><br>
+                                <p class="nombre"> Paté</p>
+                                <p class="precio">1.10€  //  <img src="image/gluten.svg" alt="" width="18px" height="18px"> 1.50€</p>
+                                <br><br>
+                                <p class="nombre"> Cachuela</p>
+                                <p class="precio">1.10€  //  <img src="image/gluten.svg" alt="" width="18px" height="18px"> 1.50€</p>
+                                <br><br>
+                                <p class="nombre"> York y Queso</p>
+                                <p class="precio">1.50€  //  <img src="image/gluten.svg" alt="" width="18px" height="18px"> 2.00€</p>
+                            </div>
+                            <p class="sub-categoria">+ DESAYUNOS</p>
+                            <div class="platillo">
+                                <p class="nombre"> Tortitas de Nata y Chocolate</p>
+                                <p class="precio">3.00€</p>
+                                <br><br>
+                                <p class="nombre"> Tortitas de Nata y Sirope</p>
+                                <p class="precio">3.00€</p>
+                                <br><br>
+                                <p class="nombre"> Gofres</p>
+                                <p class="precio">2.50€</p>
+                                <br><br>
+                                <p class="nombre"> Croissant a la Plancha</p>
+                                <p class="precio">1.50€</p>
+                            </div>
+                            <div class="platillo">
+                                <p class="sub-notes"> Se aplicará un suplemento de 0.20€ por consumición en terraza.</p>
+                                <p class="sub-notes"> Si padece alguna intolerancia, pregunte al personal del bar/restaurante.</p>
+                                <p class="sub-notes">BBT OTRA</p>
+                                <p class="sub-notes">R-CC-01476 CATEG. RESTAURANTE 1 TENEDOR</p>
+                                <P class="sub-notes">IVA INCLUIDO EN LAS TARIFAS</P>
+                            </div>
+                            <div class="img-tap">
+                                <p class="title-categoria">BBT OTRA</p>
+                                <img src="image/beer.png" alt="" width="210px" height="210px">
+                            </div>
+                        </article>
+
+                        <article>
+                            <p class="categoria"> COMIDAS </p>
+                            <p class="sub-categoria"> ENSALADAS </p>
+                            <div class="platillo">
+                                <p class="nombre"> <img src="image/gluten.svg" alt="" width="18px" height="18px"> Ensalada Mixta</p>
+                                <p class="precio">7.00€</p>
+                                <br><br>
+                                <p class="nombre"><img src="image/gluten.svg" alt="" width="18px" height="18px"> Ensalada de Manzana y Nueces</p>
+                                <p class="precio">7.00€</p>
+                                <br><br>
+                                <p class="nombre"><img src="image/gluten.svg" alt="" width="18px" height="18px"> Zorongollo (Ensalada de Pimientos)</p>
+                                <p class="precio">6.50€</p>
+                                <br><br>
+                                <p class="nombre"><img src="image/gluten.svg" alt="" width="18px" height="18px"> Tomate a las Hierbas</p>
+                                <p class="precio">6.00€</p>
+                            </div>
+                            <p class="sub-categoria"> RACIONES </p>
+                            <div class="platillo">
+                                <p class="nombre"> <img src="image/gluten.svg" alt="" width="18px" height="18px"> Callos</p>
+                                <p class="precio">7.00€</p>
+                                <br><br>
+                                <p class="nombre"><img src="image/gluten.svg" alt="" width="18px" height="18px"> Codillo</p>
+                                <p class="precio">8.00€</p>
+                                <br><br>
+                                <p class="nombre"><img src="image/gluten.svg" alt="" width="18px" height="18px"> Rabo de Ternera</p>
+                                <p class="precio">9.00€</p>
+                                <br><br>
+                                <p class="nombre"><img src="image/gluten.svg" alt="" width="18px" height="18px"> Carrilleras </p>
+                                <p class="precio">9.00€</p>
+                                <br><br>
+                                <p class="nombre"> Migas con Huevo</p>
+                                <p class="precio">6.50€</p>
+                                <br><br>
+                                <p class="nombre"><img src="image/gluten.svg" alt="" width="18px" height="18px"> Salchichas al Vino</p>
+                                <p class="precio">7.00€</p>
+                                <br><br>
+                                <p class="nombre"><img src="image/gluten.svg" alt="" width="18px" height="18px"> Morcilla de Burgos</p>
+                                <p class="precio">6.00€</p>
+                                <br><br>
+                                <p class="nombre"><img src="image/gluten.svg" alt="" width="18px" height="18px"> Magro </p>
+                                <p class="precio">7.50€</p>
+                                <br><br>
+                                <p class="nombre"><img src="image/gluten.svg" alt="" width="18px" height="18px"> Calamares</p>
+                                <p class="precio">7.00€</p>
+                                <br><br>
+                                <p class="nombre"><img src="image/gluten.svg" alt="" width="18px" height="18px"> Gazpacho (en Temporada)</p>
+                                <p class="precio">2.00€ // 2.50€</p>
+                                <br><br>
+                                <p class="nombre"><img src="image/gluten.svg" alt="" width="18px" height="18px"> Patatas Fritas</p>
+                                <p class="precio">4.00€</p>
+                                <br><br>
+                                <p class="nombre"> + Salsa (Brava o Alioli)</p>
+                                <p class="precio">+ 0.50€</p>
+                                <br><br>
+                                <p class="nombre"><img src="image/gluten.svg" alt="" width="18px" height="18px"> Jamón de Cebo</p>
+                                <p class="precio">11.00€</p>
+                                <br><br>
+                                <p class="nombre"><img src="image/gluten.svg" alt="" width="18px" height="18px"> Queso Curado</p>
+                                <p class="precio">8.00€</p>
+                                <br><br>
+                                <p class="nombre"><img src="image/gluten.svg" alt="" width="18px" height="18px"> Revuelto de Trigueros</p>
+                                <p class="precio">7.00€</p>
+                                <br><br>
+                                <p class="nombre"> Pimientos Rellenos (con Carne)</p>
+                                <p class="precio">7.50€</p>
+                                <br><br>
+                                <p class="nombre"><img src="image/gluten.svg" alt="" width="18px" height="18px"> Secreto</p>
+                                <p class="precio">11.00€</p>
+                                <br><br>
+                                <p class="nombre"><img src="image/gluten.svg" alt="" width="18px" height="18px"> Morros</p>
+                                <p class="precio">7.00€</p>
+                            </div>
+                            <p class="sub-categoria">BOCADILLOS</p>
+                            <div class="platillo">
+                                <p class="nombre"> Lomo o Salchichón</p>
+                                <p class="precio">4.50€  //  <img src="image/gluten.svg" alt="" width="18px" height="18px"> 5.50€</p>
+                                <br><br>
+                                <p class="nombre"> Chorizo o Jamón</p>
+                                <p class="precio">4.50€  //  <img src="image/gluten.svg" alt="" width="18px" height="18px"> 5.50€</p>
+                                <br><br>
+                                <p class="nombre"> Lomo a la Plancha</p>
+                                <p class="precio">4.50€  //  <img src="image/gluten.svg" alt="" width="18px" height="18px"> 5.50€</p>
+                                <br><br>
+                                <p class="nombre"> Bacon Queso</p>
+                                <p class="precio">4.50€  //  <img src="image/gluten.svg" alt="" width="18px" height="18px"> 5.50€</p>
+                                <br><br>
+                                <p class="nombre"> Pechuga de Pollo</p>
+                                <p class="precio">4.50€  //  <img src="image/gluten.svg" alt="" width="18px" height="18px"> 5.50€</p>
+                                <br><br>
+                                <p class="nombre"> Tortilla Francesa</p>
+                                <p class="precio">4.00€  //  <img src="image/gluten.svg" alt="" width="18px" height="18px"> 5.00€</p>
+                            </div>
+                            <p class="sub-categoria">PAELLAS</p>
+                            <div class="platillo">
+                                <p class="nombre">Marisco </p>
+                                <p class="precio">9.00 €</p>
+                                <br><br>
+                                <p class="nombre">Valenciana</p>
+                                <p class="precio">9.00€</p>
+                            </div>
+
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Galeria -->
+        <section class="galeria" id="galeria">
+            <div class="foto">
+                <img id="myImg" src="image/1.png" alt="Café con Leche" style="width:100%;max-width:300px">
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+                <!-- The Close Button -->
+                <span class="close">&times;</span>
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content" id="img01">
+                <!-- Modal Caption (Image Text) -->
+                <div id="caption"></div>
+                </div>
+            </div>
+
+            <div class="foto">
+                <img id="myImg2" src="image/2.png" alt="Café con Leche" style="width:100%;max-width:300px">
+                <div id="myModal2" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img02">
+                <div id="caption2"></div>
+                </div>
+            </div>
+
+            <div class="foto">
+                <img id="myImg3" src="image/3.png" alt="Hamburguesa con Patatas" style="width:100%;max-width:300px">
+                <div id="myModal3" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img03">
+                <div id="caption3"></div>
+                </div>
+            </div>
+
+            <div class="foto">
+                <img id="myImg4" src="image/4.png" alt="Solomillo con Patatas" style="width:100%;max-width:300px">
+                <div id="myModal4" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img04">
+                <div id="caption4"></div>
+                </div>
+            </div>
+
+            <div class="foto">
+                <img id="myImg5" src="image/5.png" alt="Bizcocho de la casa" style="width:100%;max-width:300px">
+                <div id="myModal5" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img05">
+                <div id="caption5"></div>
+                </div>
+            </div>
+
+            <div class="foto">
+                <img id="myImg6" src="image/6.png" alt="Tortitas de la casa" style="width:100%;max-width:300px">
+                <div id="myModal6" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img06">
+                <div id="caption6"></div>
+                </div>
+            </div>
+
+            <div class="foto">
+                <img id="myImg7" src="image/7.png" alt="Pizza de la casa" style="width:100%;max-width:300px">
+                <div id="myModal7" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img07">
+                <div id="caption7"></div>
+                </div>
+            </div>
+
+            <div class="foto">
+                <img id="myImg8" src="image/8.png" alt="Migas de la casa" style="width:100%;max-width:300px">
+                <div id="myModal8" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img08">
+                <div id="caption8"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ubicacion -->
+        <section class="ubicacion" id="ubicacion">
+            <div class="contenedor">
+                <h3 class="titulo">Ubicación</h3>
+                <div class="direccion">
+                    <p class="calle">Plaza de la Corredera, 15 <br /> Hervás, Cáceres 10700</p>
+                    <p class="telefono">+34 655 979 961</p>
+                    <p class="correo">  </p>
+                </div>
+
+                <div class="horarios">
+                    <h4>Horarios</h4>
+                    <p class="entre-semana">Lunes a Domingos<br> 7:00 a 24:00</p>
+                    <p class="fin-semana"> Miércoles <br> Cerrado por Descanso</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3044.1052266689558!2d-5.861114949188697!3d40.273412672166174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd3e4f02d6db238b%3A0x2036ce41d2b892c9!2sBBTotra!5e0!3m2!1ses!2ses!4v1605523595281!5m2!1ses!2ses" width="1600" height="550" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </section>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="contenedor">
+            <div class="copyright">
+                <p>Copyright BBT OTRA @ 2020</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/efectos.js"></script>
+    <script src="js/parallax.js"></script>
+</body>
+</html>
