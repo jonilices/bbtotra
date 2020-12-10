@@ -35,7 +35,7 @@ $(document).ready(function(){
     var acercaDe = $('#acerca-de').offset().top - 150;
     var menu = $('#menu').offset().top + 500;
     var galeria = $('#galeria').offset().top;
-    var ubicacion = $('#ubicacion').offset().top;
+    var ubicacion = $('#ubicacion').offset().top + 162.5;
 
     $('#btn-acerca-de').on('click', function(e){
         e.preventDefault();
@@ -209,6 +209,78 @@ $(document).ready(function(){
 
     span.onclick = function (){
         modal8.style.display = "none";
+    }
+
+    // Novena foto
+    var modal9 = document.getElementById("myModal9");
+    var img9 = document.getElementById("myImg9");
+    var modalImg9 = document.getElementById("img09");
+    var captionText9 = document.getElementById("caption9");
+
+    img9.onclick = function (){
+        modal9.style.display = "block";
+        modalImg9.src = this.src;
+        captionText9.innerHTML = this.alt;
+    }
+
+    var span = document.getElementsByClassName("close")[8];
+
+    span.onclick = function (){
+        modal9.style.display = "none";
+    }
+
+    // Décima foto
+    var modal10 = document.getElementById("myModal10");
+    var img10 = document.getElementById("myImg10");
+    var modalImg10 = document.getElementById("img10");
+    var captionText10 = document.getElementById("caption10");
+
+    img10.onclick = function (){
+        modal10.style.display = "block";
+        modalImg10.src = this.src;
+        captionText10.innerHTML = this.alt;
+    }
+
+    var span = document.getElementsByClassName("close")[9];
+
+    span.onclick = function (){
+        modal10.style.display = "none";
+    }
+
+    // Undécima foto
+    var modal11 = document.getElementById("myModal11");
+    var img11 = document.getElementById("myImg11");
+    var modalImg11 = document.getElementById("img11");
+    var captionText11 = document.getElementById("caption11");
+
+    img11.onclick = function (){
+        modal11.style.display = "block";
+        modalImg11.src = this.src;
+        captionText11.innerHTML = this.alt;
+    }
+
+    var span = document.getElementsByClassName("close")[10];
+
+    span.onclick = function (){
+        modal11.style.display = "none";
+    }
+
+    // Duodécima foto
+    var modal12 = document.getElementById("myModal12");
+    var img12 = document.getElementById("myImg12");
+    var modalImg12 = document.getElementById("img12");
+    var captionText12 = document.getElementById("caption12");
+
+    img12.onclick = function (){
+        modal12.style.display = "block";
+        modalImg12.src = this.src;
+        captionText12.innerHTML = this.alt;
+    }
+
+    var span = document.getElementsByClassName("close")[11];
+
+    span.onclick = function (){
+        modal12.style.display = "none";
     }
 
 });

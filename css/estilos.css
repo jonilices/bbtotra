@@ -134,8 +134,8 @@ header .textos h3 {
 }
 
 .main .menu .titulo {
-    font-size: 40px;
-    font-weight: 300;
+    font-size: 50px;
+    font-weight: 400;
     text-align: center;
     margin-bottom: 40px;
 }
@@ -214,6 +214,7 @@ header .textos h3 {
 
 .main .galeria {
     overflow: hidden;
+    width: 100%;
 }
 
 .main .galeria .foto {
@@ -256,7 +257,8 @@ header .textos h3 {
 }
 
 #caption, #caption2, #caption3, #caption4,
-#caption5, #caption6, #caption7, #caption8 {
+#caption5, #caption6, #caption7, #caption8,
+#caption9, #caption10, #caption11, #caption12 {
     margin: auto;
     display: block;
     width: 80%;
@@ -269,7 +271,8 @@ header .textos h3 {
 
 .modal-content, #caption, #caption2,
 #caption3, #caption4, #caption5, #caption6,
-#caption7, #caption8 {
+#caption7, #caption8, #caption9, #caption10, 
+#caption11, #caption12 {
     animation-name: zoom;
     animation-duration: 0.6s;
 }
@@ -312,10 +315,11 @@ header .textos h3 {
 
 .main .ubicacion .titulo {
     text-align: center;
-    font-size: 40px;
-    line-height: 40px;
-    font-weight: 300;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 50px;
     margin-bottom: 40px;
+    margin-top: 100px;
 }
 
 .main .ubicacion .direccion {
@@ -370,7 +374,7 @@ footer .copyright {
 
 /* ----- ----- RESPONSIVE DESIGN ----- ----- */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1029px) {
     header .contenendor {
         position: static;
         height: auto;
@@ -413,6 +417,14 @@ footer .copyright {
         padding-top: 300px;
     }
 
+    .main .menu .titulo {
+        font-size: 40px;
+    }
+
+    .main .ubicacion .titulo {
+        font-size: 40px;
+    }
+
     .main .menu article {
         width: 90%;
         float: left;
@@ -428,7 +440,7 @@ footer .copyright {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 590px) {
     header .menu {
         text-align: center;
     }
@@ -476,6 +488,14 @@ footer .copyright {
 
     .main .ubicacion .direccion {
         margin-bottom: 25px;
+    }
+
+    .main .menu .titulo {
+        font-size: 28px;
+    }
+
+    .main .ubicacion .titulo {
+        font-size: 28px;
     }
 
     .main .ubicacion .direccion,
